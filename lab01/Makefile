@@ -6,7 +6,7 @@ CFLAGS=-Wall -pedantic-errors -std=c99
 #The name of the executable file to be generated.
 EXEC=hello
 #The name of the source code to be compiled.
-SRC=hello.c~
+SRC=hello.c
 
 all:
 	$(CC) $(CFLAGS) $(SRC) -o $(EXEC)
